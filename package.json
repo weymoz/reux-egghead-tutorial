@@ -1,0 +1,21 @@
+{
+  "name": "demo-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "redux": "^4.0.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "nodemon": "^2.0.1"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
